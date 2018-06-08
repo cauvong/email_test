@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp" 
+>
+
+    <TextView
+        android:id="@+id/settings_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_text"
+    />
+    
+    <EditText 
+        android:id="@+id/settings_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_text"
+        android:inputType="textEmailAddress"
+        android:hint="test@tester.test"
+    />
+    
+    <EditText 
+        android:id="@+id/settings_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_email"
+        android:inputType="textPassword"
+        android:hint="******" 
+    />
+    
+    <Button
+        android:id="@+id/settings_terug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="terug"
+        android:onClick="terug"  
+    />
+    
+    <Button
+        android:id="@+id/settings_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="edit"
+        android:onClick="edit"  
+    />
+    
+    
+    
+</RelativeLayout>
+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Email</string>
+    <string name="title_write_mail">Write mail</string>
+    <string name="title_read_mail">Read mail</string>
+    <string name="title_inbox">Inbox</string>
+    <string name="title_contacts">Nieuw contact</string>
+    <string name="title_settings">Settings</string>
+    <string name="settings_text">Here you can change your emailadress and password</string>
+    <string name="settings_firstrun">Please fill in your emailadress and password</string>
+    <string name="send_mail">Write new email</string>
+    <string name="mail">read mail</string>
+</resources>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/mac/Desktop/emailapp-master/app/build/intermediates/res/merged/debug/layout/settings.xml",
+        "source": "/Users/mac/Desktop/emailapp-master/app/src/main/res/layout/settings.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/emailapp-master/app/build/intermediates/res/merged/debug/layout/inbox_fragment.xml",
+        "source": "/Users/mac/Desktop/emailapp-master/app/src/main/res/layout/inbox_fragment.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/emailapp-master/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/mac/Desktop/emailapp-master/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/emailapp-master/app/build/intermediates/res/merged/debug/layout/write_mail.xml",
+        "source": "/Users/mac/Desktop/emailapp-master/app/src/main/res/layout/write_mail.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/emailapp-master/app/build/intermediates/res/merged/debug/layout/contacts.xml",
+        "source": "/Users/mac/Desktop/emailapp-master/app/src/main/res/layout/contacts.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/emailapp-master/app/build/intermediates/res/merged/debug/layout/read_mail.xml",
+        "source": "/Users/mac/Desktop/emailapp-master/app/src/main/res/layout/read_mail.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/emailapp-master/app/build/intermediates/res/merged/debug/layout/inbox.xml",
+        "source": "/Users/mac/Desktop/emailapp-master/app/src/main/res/layout/inbox.xml"
+    }
+]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp" 
+>
+
+    <EditText 
+        android:id="@+id/reader_sender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:hint="receiver"
+        android:editable="false" 
+    />
+    <EditText
+        android:id="@+id/reader_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reader_sender"
+        android:hint="subject" 
+        android:editable="false" 
+    />
+    
+    <EditText
+        android:id="@+id/reader_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/reader_subject"
+        android:hint="message" 
+        android:editable="false"
+        android:gravity="top" 
+    />
+    
+</RelativeLayout>
+
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp" 
+>
+
+    <EditText 
+        android:id="@+id/receiver"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:hint="receiver" 
+    />
+    <EditText 
+        android:id="@+id/subject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/receiver"
+        android:hint="subject" 
+    />
+    
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="button_send"
+        android:onClick="email"  
+    />
+    
+    <EditText 
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/subject"
+        android:layout_above="@id/button2"
+        android:hint="message" 
+        android:gravity="top" 
+    />
+    
+</RelativeLayout>
+
+
